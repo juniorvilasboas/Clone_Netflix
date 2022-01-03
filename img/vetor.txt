@@ -1,0 +1,8 @@
+[
+'Alerta_Vermelho',
+'Cobra_Kai',
+'Game_of_Thrones',
+'Liga_da_Justica',
+'Shang_Chi',
+'The_Witcher'
+]

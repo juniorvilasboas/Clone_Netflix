@@ -1,0 +1,144 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  /* utilizado para o conteudo não ultrapassar o tamanho do elemento */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Elementos base */
+body {
+  background: var(--preta);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: "Arial Black";
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+header nav a {
+  color: #aaa;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/* Filme principal */
+main .filme-principal {
+  align-items: flex-start;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  justify-content: center;
+  height: 530px;
+}
+
+main .filme-principal .titulo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  margin-top: 15%;
+}
+
+main .filme-principal .descricao {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+main .filme-principal .botoes .botao {
+  background-color: rgba(43, 43, 43, 0.5);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 15px;
+  padding: 15px 30px;
+  transition: 0.5s ease all;
+}
+
+main .filme-principal .botoes .botao:hover {
+  background-color: rgba(255, 250, 250, 0.5);
+  box-shadow: 3px 3px 5px rgb(189, 188, 188);
+  color: black;
+}
+
+main .filme-principal .botoes .botao i {
+  margin-right: 8px;
+}
+
+.container {
+  margin-left: 30px;
+}
+
+main .container {
+  width: 40%;
+}
+
+.box-filme {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-filmes {
+  margin-top: 5px;
+  padding: 0 10px;
+}
+
+.tipos {
+  margin: 20px;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer div {
+  margin-bottom: 6px;
+  padding: 0 2px;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+.footer div a {
+  font-size: 16px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

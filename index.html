@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/responsive.css" />
+
+  <!-- Owl css -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+
+  <title>NETFLIX CLONE</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h2 class="logo">NETFLIX</h2>
+      <nav>
+        <a href="">Inicio</a>
+        <a href="">Séries</a>
+        <a href="">Filmes</a>
+        <a href="">Documentário</a>
+      </nav>
+    </div>
+  </header>
+
+  <IFRAME id="frame" src="" title="Filmes" width="100%" height="530" frameborder=0 scrolling=no Allowtransparency=true>
+    <!-- Alternate content for non-supporting browsers -->
+  </IFRAME>
+
+  <div class="tipos">
+    <h3>Filmes</h3>
+  </div>
+  <div class="carousel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img onclick="carregarFilmes('liga_da_justica')" class="box-filme" src="img/liga_da_justica/capa.jpg" alt=""
+          cursor='pointer'>
+      </div>
+      <div class="item">
+        <img onclick="carregarFilmes('alerta_vermelho')" class="box-filme" src="img/alerta_vermelho/capa.jpg" alt=""
+          cursor='pointer'>
+      </div>
+      <div class="item">
+        <img onclick="carregarFilmes('shang_chi')" class="box-filme" src="img/shang_chi/capa.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="tipos">
+    <h3>Séries</h3>
+  </div>
+
+  <div class="carousel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img onclick="carregarFilmes('cobra_kai')" class="box-filme" src="img/cobra_kai/capa.jpg" alt="">
+      </div>
+      <div class="item">
+        <img onclick="carregarFilmes('game_of_thrones')" class="box-filme" src="img/game_of_thrones/capa.jpg" alt="">
+      </div>
+      <div class="item">
+        <img onclick="carregarFilmes('the_witcher')" class="box-filme" src="img/the_witcher/capa.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class='footer'>
+    <footer>
+      <div>
+        <p>Este site foi construído durante as aulas JavaScript Game Developer. Usamos HTML5 + CSS3 e JQuery</p>
+        <p>Você pode encontrar o código-fonte deste site em:</p>
+        <a class='text-sm md:text-base hover:underline' href='https://github.com/juniorvilasboas/moacyrsantana.dev'
+          target='_blank'>https://github.com/juniorvilasboas/moacyrsantana.dev</a>
+      </div>
+      <p class='text-center text-sm mt-3.5'>Serveware Sistemas © 2022</p>
+    </footer>
+  </div>
+
+  <script src="https://kit.fontawesome.com/9cea6b442c.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
